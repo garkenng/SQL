@@ -9,3 +9,15 @@ Set in the gritty 1980s, a valuable briefcase has disappeared from the Blue Note
 <br><br>
 ### Question<br>
 Submit the suspect you discovered through your investigation to see if you cracked the case.
+
+### Schema 
+
+crime_scene
+
+| Column | Type |	Key |
+| ---- | ---- | ---- |
+| id	| INTEGER	| ✔ |
+| date	| INTEGER | |	
+|type	| TEXT	| |
+| location	| TEXT | | 	
+| description	| TEXT | |
