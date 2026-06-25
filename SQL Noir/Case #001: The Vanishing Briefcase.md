@@ -39,3 +39,20 @@ interviews
 | ---- | ---- | ---- |
 | suspect_id	| INTEGER	| ✔ |
 | transcript | TEXT | |
+
+<br><br>
+
+To begin the investigation, search for suspects who were wearing trench coat.
+
+```
+SELECT * FROM suspects
+WHERE attire = "trench coat"
+```
+<br>
+
+Results
+| id	| name	| attire	| scar |
+| ---- | ---- | ---- | ---- |
+| 3	| Frankie Lombardi	| trench coat	| left cheek |
+| 183	| Vincent Malone	| trench coat	| left cheek |
+| 237	| Christopher Black	| trench coat	| right cheek |
