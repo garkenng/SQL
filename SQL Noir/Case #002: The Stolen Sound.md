@@ -24,7 +24,13 @@ crime_scene
 | location	| TEXT | |	
 | description	| TEXT | |
 
+witnesses
 
+| Column	Type	Key
+| ---- | ---- | ---- |
+| id	| INTEGER	| ✔ |
+| crime_scene_id |	INTEGER | |
+| clue | | |
 
 
 Retrieve the crime scene report.<br><br>
