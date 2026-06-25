@@ -12,6 +12,21 @@ In the neon glow of 1980s Los Angeles, the West Hollywood Records store was rock
 Submit the suspect you discovered through your investigation to see if you cracked the case.
 <br><br>
 
+### Schema 
+
+crime_scene
+
+| Column	Type	Key
+| ---- | ---- | ---- |
+| id	| INTEGER	 |
+| date	| INTEGER |	
+| type	| TEXT	|
+| location	| TEXT |	
+| description	| TEXT |
+
+
+
+
 Retrieve the crime scene report.<br><br>
 
 ```
