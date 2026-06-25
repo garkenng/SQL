@@ -56,3 +56,20 @@ Results
 | 3	| Frankie Lombardi	| trench coat	| left cheek |
 | 183	| Vincent Malone	| trench coat	| left cheek |
 | 237	| Christopher Black	| trench coat	| right cheek |
+
+<br><br>
+
+Pull the interviews for each of the suspects above.<br><br>
+
+```
+SELECT * FROM interviews
+WHERE suspect_id in (3, 183, 237);
+```
+<br>
+
+
+Results
+| suspect_id	| transcript |
+| ---- | ---- |
+| 3	| NULL |
+| 183	| I wasn’t going to steal it, but I did. |
