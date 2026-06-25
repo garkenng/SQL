@@ -25,3 +25,18 @@ Results
 | id	| date	| type	| location	| description |
 | ---- | ---- | ---- | ---- | ---- |
 | 65	| 19830715	| theft	| West Hollywood Records	| A prized vinyl record was stolen from the store during a busy evening. |
+
+Retrieve witness records linked to the crime scene.<br><br>
+
+```
+SELECT * FROM witnesses
+WHERE crime_scene_id = 65
+```
+<br>
+
+Results
+
+| id	| crime_scene_id	| clue |
+| ---- | ---- | ---- |
+| 28 |	65 |	I saw a man wearing a red bandana rushing out of the store. |
+| 75 |	65	| he main thing I remember is that he had a distinctive gold watch on his wrist. |
