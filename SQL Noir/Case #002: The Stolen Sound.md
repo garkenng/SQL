@@ -16,7 +16,7 @@ Submit the suspect you discovered through your investigation to see if you crack
 
 crime_scene
 
-| Column	Type	Key
+| Column	| Type	| Key | 
 | ---- | ---- | ---- |
 | id	| INTEGER	 |
 | date	| INTEGER |	
