@@ -6,3 +6,5 @@ Set in the gritty 1980s, a valuable briefcase has disappeared from the Blue Note
 1. Retrieve the correct crime scene details to gather the key clue.
 2. Identify the suspect whose profile matches the witness description.
 3. Verify the suspect using their interview transcript.
+<br><br>
+### Question: Submit the suspect you discovered through your investigation to see if you cracked the case.
