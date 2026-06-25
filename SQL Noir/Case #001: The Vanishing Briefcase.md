@@ -88,3 +88,8 @@ Results
 | ---- | ---- | ---- | ---- | ---- |
 | 76	| 19851120	| theft	| Blue Note Lounge	| A briefcase containing sensitive documents vanished. A witness reported a man in a trench coat with a scar on his left cheek fleeing the scene. |
 
+<br>
+The locaton of scar, confession in interview and wearing trench coat all point to Vincent Malone
+.<br><br>
+
+### Answer: Vincent Malone
