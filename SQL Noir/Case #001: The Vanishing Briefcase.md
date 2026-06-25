@@ -73,3 +73,18 @@ Results
 | ---- | ---- |
 | 3	| NULL |
 | 183	| I wasn’t going to steal it, but I did. |
+
+<br>
+It appears that Vicent Malone is our suspect. Given the  interview and wearing a trench coat. Can check if there is any mention of the scar in the crime scene table.
+
+```
+SELECT * FROM crime_scene
+WHERE location = "Blue Note Lounge"
+```
+<br>
+
+Results
+| id	| date	| type	| location	| description |
+| ---- | ---- | ---- | ---- | ---- |
+| 76	| 19851120	| theft	| Blue Note Lounge	| A briefcase containing sensitive documents vanished. A witness reported a man in a trench coat with a scar on his left cheek fleeing the scene. |
+
