@@ -41,6 +41,13 @@ suspects
 | bandana_color	| TEXT | |	
 | accessory	| TEXT | |
 
+interviews
+
+| Column	| Type	| Key |
+| ---- | ---- | ---- |
+| suspect_id	| INTEGER	| 🔗 |
+| transcript	| TEXT | |
+
 
 Retrieve the crime scene report.<br><br>
 
