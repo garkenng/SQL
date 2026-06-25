@@ -18,11 +18,11 @@ crime_scene
 
 | Column	| Type	| Key | 
 | ---- | ---- | ---- |
-| id	| INTEGER	 |
-| date	| INTEGER |	
-| type	| TEXT	|
-| location	| TEXT |	
-| description	| TEXT |
+| id	| INTEGER	 | ✔ |
+| date	| INTEGER |	|
+| type	| TEXT	| |
+| location	| TEXT | |	
+| description	| TEXT | |
 
 
 
