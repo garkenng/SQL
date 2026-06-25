@@ -21,3 +21,13 @@ crime_scene
 |type	| TEXT	| |
 | location	| TEXT | | 	
 | description	| TEXT | |
+
+
+suspects
+
+| Column |Type | Key |
+| ---- | ---- | ---- |
+|id |	INTEGER	| ✔ |
+| name	| TEXT	| |
+| attire | TEXT	| |
+| scar | TEXT | |
