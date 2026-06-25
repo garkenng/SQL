@@ -48,7 +48,7 @@ interviews
 | suspect_id	| INTEGER	| 🔗 |
 | transcript	| TEXT | |
 
-
+<br>
 Retrieve the crime scene report.<br><br>
 
 ```
