@@ -22,7 +22,7 @@ crime_scene
 | location	| TEXT | | 	
 | description	| TEXT | |
 
-
+<br>
 suspects
 
 | Column |Type | Key |
@@ -31,3 +31,11 @@ suspects
 | name	| TEXT	| |
 | attire | TEXT	| |
 | scar | TEXT | |
+
+<br>
+interviews
+
+| Column	| Type	| Key |
+| ---- | ---- | ---- |
+| suspect_id	| INTEGER	| ✔ |
+| transcript | TEXT | |
