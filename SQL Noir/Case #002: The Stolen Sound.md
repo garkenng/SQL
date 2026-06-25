@@ -26,11 +26,20 @@ crime_scene
 
 witnesses
 
-| Column	Type	Key
+| Column |	Type |	Key |
 | ---- | ---- | ---- |
 | id	| INTEGER	| ✔ |
-| crime_scene_id |	INTEGER | |
-| clue | | |
+| crime_scene_id |	INTEGER | 🔗 |
+| clue | | TEXT | |
+
+suspects
+
+| Column	| Type	| Key |
+| ---- | ---- | ---- |
+| id	| INTEGER | ✔ |	
+| name	| TEXT | |	
+| bandana_color	| TEXT | |	
+| accessory	| TEXT | |
 
 
 Retrieve the crime scene report.<br><br>
