@@ -10,3 +10,18 @@ In the neon glow of 1980s Los Angeles, the West Hollywood Records store was rock
 <br><br>
 ### Question<br>
 Submit the suspect you discovered through your investigation to see if you cracked the case.
+<br><br>
+
+Retrieve the crime scene report.<br><br>
+
+```
+SELECT * FROM crime_scene
+WHERE location = 'West Hollywood Records'
+```
+<br>
+
+Results
+
+| id	| date	| type	| location	| description |
+| ---- | ---- | ---- | ---- | ---- |
+| 65	| 19830715	| theft	| West Hollywood Records	| A prized vinyl record was stolen from the store during a busy evening. |
