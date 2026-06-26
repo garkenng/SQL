@@ -74,6 +74,26 @@ WHERE crime_scene_id = 65
 Results
 
 | id	| crime_scene_id	| clue |
-| ---- | ---- | ---- |
+| ---- | ---- | ---- | ---- |
 | 28 |	65 |	I saw a man wearing a red bandana rushing out of the store. |
 | 75 |	65	| he main thing I remember is that he had a distinctive gold watch on his wrist. |
+
+
+Use the clues from previous results to look for a suspect with a red bandana and a gold watch.<br><br>
+
+```
+SELECT * FROM suspects
+WHERE bandana_color = "red" 
+AND accessory = "gold watch"
+```
+<br>
+
+Results
+
+| id	| name	| bandana_color	| accessory |
+| ---- | ---- | ---- | ---- | 
+| 35	| Tony Ramirez	| red	| gold watch |
+| 44	| Mickey Rivera	| red	| gold watch | 
+| 97	| Rico Delgado	| red	| gold watch |
+
+
