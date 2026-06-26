@@ -111,3 +111,17 @@ Results
 | 35	| I wasn't anywhere near West Hollywood Records that night. |
 | 44	| I was busy with my music career; I have nothing to do with this theft. |
 | 97	| I couldn't help it. I snapped and took the record. |
+
+The  ID 97 is our suspect. To confirm the findings, can lookup suspect id on the suspects table.<br><br>
+
+```
+SELECT * FROM suspects
+WHERE id = 97
+```
+<br>
+
+Results
+
+| ---- | ---- | ---- |
+| id	| name	| bandana_color	| accessory |
+| 97	| Rico Delgado	| red	gold | watch |
