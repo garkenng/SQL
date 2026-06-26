@@ -96,4 +96,6 @@ Results
 | 44	| Mickey Rivera	| red	| gold watch | 
 | 97	| Rico Delgado	| red	| gold watch |
 
+Narrowed down to 3 suspects.
+
 
