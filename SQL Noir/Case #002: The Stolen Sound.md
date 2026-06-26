@@ -106,7 +106,7 @@ WHERE suspect_id in (35, 44, 97);
 
 Results
 
-| suspect_id	transcript
+| suspect_id	| transcript |
 | ---- | ---- |
 | 35	| I wasn't anywhere near West Hollywood Records that night. |
 | 44	| I was busy with my music career; I have nothing to do with this theft. |
