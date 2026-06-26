@@ -7,9 +7,6 @@
 
 ```
 SELECT DISTINCT Building FROM Employees;
-SELECT * FROM Buildings;
-SELECT DISTINCT Building_name, Role FROM Buildings
-LEFT JOIN Employees ON Building_name = Building
 ```
 <br>
 
@@ -23,8 +20,6 @@ SELECT * FROM Buildings;
 3. List all buildings and the distinct employee roles in each building (including empty buildings)
 
 ```
-SELECT DISTINCT building_name, role 
-FROM buildings 
-  LEFT JOIN employees
-    ON building_name = building;
+SELECT DISTINCT Building_name, Role FROM Buildings 
+  LEFT JOIN Employees ON Building_name = Building;
 ```
