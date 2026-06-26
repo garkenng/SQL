@@ -122,6 +122,7 @@ WHERE id = 97
 
 Results
 
-| ---- | ---- | ---- |
+
 | id	| name	| bandana_color	| accessory |
+| ---- | ---- | ---- | ---- |
 | 97	| Rico Delgado	| red	gold | watch |
