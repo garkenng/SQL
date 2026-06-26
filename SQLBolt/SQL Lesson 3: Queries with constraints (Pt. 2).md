@@ -17,4 +17,13 @@ WHERE Title like '%Toy Story%'
 ```
 <br>
 
-3. 
+3. Find all the movies (and director) not directed by John Lasseter
+
+```
+```
+<br>
+
+4. Find all the WALL-* movies
+
+```
+```
