@@ -44,5 +44,9 @@ LIMIT 2
 5. List the third and fourth largest cities (by population) in the United States and their population
    
 ```
+SELECT * FROM north_american_cities
+WHERE Country = "United States"
+ORDER BY Population DESC
+LIMIT 2 OFFSET 2
 ```
 <br>
