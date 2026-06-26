@@ -25,10 +25,18 @@ LIMIT 4;
 3. List the first five Pixar movies sorted alphabetically
 
 ```
+SELECT *
+FROM movies
+ORDER BY Title ASC
+LIMIT 5;
 ```
 <br>
 
 4. List the next five Pixar movies sorted alphabetically
 
 ```
+SELECT *
+FROM movies
+ORDER BY Title ASC
+LIMIT 5 OFFSET 5;
 ```
