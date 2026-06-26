@@ -74,7 +74,7 @@ WHERE crime_scene_id = 65
 Results
 
 | id	| crime_scene_id	| clue |
-| ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- | 
 | 28 |	65 |	I saw a man wearing a red bandana rushing out of the store. |
 | 75 |	65	| he main thing I remember is that he had a distinctive gold watch on his wrist. |
 
