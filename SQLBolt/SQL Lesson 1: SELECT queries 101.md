@@ -29,3 +29,29 @@ Table: movies
 | Cars 2 |
 | Brave | 
 | Monsters University |
+
+Find the director of each film.<br><br>
+
+```
+SELECT Director FROM movies;
+```
+<br>
+
+Table: movies
+
+| director |
+| ---- |
+| John Lasseter|
+| John Lasseter | 
+| John Lasseter |
+| Pete Docter |
+| Andrew Stanton |
+| Brad Bird |
+| John Lasseter |
+| Brad Bird |
+| Andrew Stanton |
+| Pete Docter |
+| Lee Unkrich |
+| John Lasseter |
+| Brenda Chapman |
+| Dan Scanlon |
