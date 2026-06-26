@@ -6,6 +6,9 @@
 1. List all directors of Pixar movies (alphabetically), without duplicates
 
 ```
+SELECT DISTINCT Director
+FROM movies
+ORDER BY Director ASC
 ```
 <br>
 
