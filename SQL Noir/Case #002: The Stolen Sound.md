@@ -96,6 +96,18 @@ Results
 | 44	| Mickey Rivera	| red	| gold watch | 
 | 97	| Rico Delgado	| red	| gold watch |
 
-Narrowed down to 3 suspects.
+Narrowed down to 3 suspects. Run a query on the interview table with the ID's.<br><br>
 
+```
+SELECT * FROM interviews
+WHERE suspect_id in (35, 44, 97);
+```
+<br>
 
+Results
+
+| suspect_id	transcript
+| ---- | ---- |
+| 35	| I wasn't anywhere near West Hollywood Records that night. |
+| 44	| I was busy with my music career; I have nothing to do with this theft. |
+| 97	| I couldn't help it. I snapped and took the record. |
