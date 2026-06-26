@@ -126,3 +126,5 @@ Results
 | id	| name	| bandana_color	| accessory |
 | ---- | ---- | ---- | ---- |
 | 97	| Rico Delgado	| red	gold | watch |
+
+### Answer: Rico Delgado
